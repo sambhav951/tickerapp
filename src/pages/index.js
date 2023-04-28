@@ -99,7 +99,7 @@ const Article = () => {
           </div>
           <br/>
             <div>
-              It is often referred to as the "digital gold" due to its
+              It is often referred to as the digital gold due to its
               limited supply and its ability to serve as a store of value.
               Unlike traditional currencies, which are controlled by governments
               and financial institutions, Bitcoin is decentralized and operates
