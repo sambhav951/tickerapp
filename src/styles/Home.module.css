@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container > div {
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: large;
+}
+
+.priceChange {
+  display: inline-block;
+  position: relative;
+  padding: 0px 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.priceChange::before {
+  content: "▼";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.btcGraphContainer {
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  width: 300px;
+  height: 176px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.medContainer {
+  border-top: 1px solid rgb(219, 211, 211);
+  border-bottom: 1px solid rgb(219, 211, 211);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 94px;
+}
+
+.btcGraphContainer table {
+  font-size: small;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.btcGraphContainer canvas {
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+}
+
+.loading {
+  padding: 1px;
+}
+
+.footer {
+  font-size: small;
+}
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+.inline {
+  display: inline;
+}
+
+.lightGreen {
+  background-color: #b8e6b8
+}
+
+.lightRed {
+  background-color: lightcoral;
+}
+.footer a {
+  color: rgb(39, 141, 237);
+  text-decoration: none;
+  font-weight: 600;
+}
+.noData {
+ padding: 3px;
+}
